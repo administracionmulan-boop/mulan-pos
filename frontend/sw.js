@@ -1,6 +1,6 @@
 // Service Worker: guarda la aplicación en el dispositivo para que abra y venda sin internet.
 // Cambie VERSION en cada despliegue para que los dispositivos descarguen la nueva versión.
-const VERSION = 'mulan-20261114-1056';
+const VERSION = 'mulan-20261114-1106';
 const ARCHIVOS = [
   './', './index.html', './config.js', './manifest.webmanifest', './css/app.css',
   './js/app.js', './js/api.js', './js/store.js', './js/ui.js', './js/calc.js', './js/receipt.js',
