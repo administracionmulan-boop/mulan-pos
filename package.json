@@ -1,0 +1,24 @@
+{
+  "name": "mulan-pos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MULAN POS - Sistema punto de venta para negocio de comidas (PWA + Google Apps Script + Google Sheets)",
+  "scripts": {
+    "instalar": "node scripts/instalar.js",
+    "configurar": "node scripts/configurar.js",
+    "publicar": "node scripts/publicar.js",
+    "publicar:backend": "node scripts/publicar.js --solo-backend",
+    "publicar:frontend": "node scripts/publicar.js --solo-frontend",
+    "subir-backend": "node scripts/publicar.js --solo-subir",
+    "dev": "node dev/server.js 8080",
+    "test": "node --test tests/backend.test.js",
+    "e2e": "node tests/e2e.js"
+  },
+  "devDependencies": {
+    "@google/clasp": "3.3.0",
+    "playwright": "1.47.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

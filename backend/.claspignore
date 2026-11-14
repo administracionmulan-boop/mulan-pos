@@ -1,0 +1,4 @@
+# Solo se suben a Apps Script el código (.gs) y el manifiesto
+**/**
+!*.gs
+!appsscript.json

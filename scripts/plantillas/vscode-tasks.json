@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MULAN: Publicar todo",
+      "type": "shell",
+      "command": "npm run publicar",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true }
+    },
+    {
+      "label": "MULAN: Publicar solo backend (Apps Script)",
+      "type": "shell",
+      "command": "npm run publicar:backend",
+      "problemMatcher": []
+    },
+    {
+      "label": "MULAN: Publicar solo frontend (GitHub Pages)",
+      "type": "shell",
+      "command": "npm run publicar:frontend",
+      "problemMatcher": []
+    },
+    {
+      "label": "MULAN: Servidor local de pruebas",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "MULAN: Pruebas",
+      "type": "shell",
+      "command": "npm test",
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "MULAN: Configurar (primera vez)",
+      "type": "shell",
+      "command": "npm run configurar",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "focus": true, "panel": "dedicated" }
+    }
+  ]
+}

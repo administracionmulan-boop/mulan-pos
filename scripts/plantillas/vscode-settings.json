@@ -1,0 +1,9 @@
+{
+  "files.associations": { "*.gs": "javascript" },
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.exclude": { "**/node_modules": true },
+  "search.exclude": { "frontend/vendor/**": true },
+  "git.enableSmartCommit": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
